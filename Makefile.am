@@ -45,7 +45,6 @@ test_readpdb_LDADD	=	$(shared_LDADD) \
 AM_CPPFLAGS	=	-std=c++11 \
 							-pedantic \
 							-Wall \
-							-Werror \
 							-Wno-reorder \
 							$(BOOST_CPPFLAGS) \
 							$(BZ2LIB_CPPFLAGS) \
